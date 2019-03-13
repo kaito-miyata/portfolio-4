@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+
+h2 {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#nav_toggle{
+/* ハンバーガーメニューこれからやる */
+	}
+
+/* ＊＊＊＊＊＊ヘッダー＊＊＊＊＊＊ */
+header {
+  height: 50px;
+
+}
+.header_wrapper {
+  /* width: 80%; */
+  padding: 0 30px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.header_list {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  line-height: 50px;
+}
+.header_list li {
+  margin-left: 20px;
+}
+.header_list li a {
+  color: gray;
+  display: block;
+  text-decoration: none;
+}
+.header_list li a:hover {
+  opacity: 0.6;
+
+}
+/**********トップ画像**********/
+
+.top_img {
+  height: 600px;
+  width: 100%;
+  background: url(img/bg1.jpg) ;
+  background-size: cover;
+  background-position: bottom;
+}
+.top_img h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 600px;
+}
+
+/***********NEWS ***************/
+.news {
+  height: 300px;
+}
+.news_wrapper {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 100px;
+}
+
+.news_wrapper h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.news_list {
+  padding-left: 10px;
+}
+.news_list ul li {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-bottom: 10px;
+
+}
+.news_list ul li p {
+  margin-left: 10px;
+}
+.news_list ul li p a:hover {
+  color: blue;
+}
+
+/********** 社長インタビュー **********/
+.interview {
+  height: 400px;
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.interview_box {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: lightgray;
+  opacity: 0.8;
+}
+.interview_box h2 {
+  font-size: 30px;
+}
+.interview_box p {
+  margin-bottom: 20px;
+}
+.interview_box a {
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid;
+}
+.interview_box a:hover {
+  background-color: #fff;
+}
+
+
+/**********事業内容 **********/
+.about_business {
+  height: auto;
+  padding: 30px;
+}
+
+
+.about_business_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_business_box {
+  width: 200px;
+  height: 300px;
+  background-color: lightgray;
+  box-shadow: 1px 1px 5px 1px #999;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+
+}
+.about_business_box h3 {
+  font-weight: bold;
+  padding: 10px 0;
+}
+.icon-blue {
+  color: darkblue;
+}
+
+/**********会社概要・採用情報 **********/
+.company_info {
+  height: 400px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.about_company {
+  width: 50%;
+  background: url(img/bg4.jpg);
+  background-size: cover;
+  padding: 30px;
+  position: relative;
+}
+.about_company h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.about_company a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  background-color: #fff;
+  color: blue;
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 10px 20px;
+}
+.about_company a:hover {
+  text-decoration: underline;
+}
+.employment{
+  width: 50%;
+  background: url(img/bg5.jpg);
+  background-size: cover;
+  padding: 30px;
+  position: relative;
+
+}
+.employment h3 {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+.employment a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  background-color: #fff;
+  color: blue;
+  text-decoration: none;
+  border: 1px solid blue;
+  padding: 10px 20px;
+
+}
+.employment a:hover {
+  text-decoration: underline;
+}
+/**********アクセス **********/
+.access {
+  background-color: lightgray;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.access_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.access_detail {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.access_detail ul li{
+  padding: 0 30px;
+  line-height: 30px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+/********** フッター **********/
+footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  align-items: center;
+}
+
+
+/************** レスポンシブ ****************/
+
+/* タブレット */
+@media screen and (max-width:959px) {
+main{
+  text-align: center;
+}
+.header_list {
+  display: none;
+}
+.news {
+  height: auto;
+}
+.news_wrapper {
+ flex-direction: column;
+ align-items: center;
+ margin-left: 0
+}
+.news_list {
+  text-align: center;
+}
+.about_business_wrapper {
+  align-items: center;
+  flex-direction: column;
+}
+.about_business_box {
+  margin-bottom: 30px;
+}
+.company_info {
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+.about_company,.employment {
+  width: 500px;
+  height: 300px;
+}
+.access_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+/* スマホ */
+@media screen and (max-width:599px) {
+  .news {
+    height: auto;
+  }
+  .news_wrapper {
+    padding: initial;
+  }
+  .about_company,.employment {
+    width: 100%;
+    height: 300px;
+    padding: initial;
+  }
+
+  footer{
+    height: auto;
+    line-height: initial;
+  }
+}
